@@ -10,5 +10,5 @@ This assignment consist of creating a database used to store data relating to th
 - Province = {**provinceName**, provincePopulation, provinceGDP}
 - Riding = {**ridingName**, ridingPopulation, provinceName<sup>Province</sup>}
 - Party = {**partyID**, partyName, leaderFirstName, leaderLastName, partyWeb}
-- Ballots = {**ridingName**<sup>Riding</sup>, **candidateFirstName**, **candidateLastName**, partyID<sup>Party</sup>,  votes}
+- Ballots = {**ridingName**<sup>Riding</sup>, **candidateFirstName**, **candidateLastName**, partyID<sup>Party</sup>,  votes}  
 **Note: attributes in blod are primary key, attributes with superscripts are foreign keys referencing the superscripted table
