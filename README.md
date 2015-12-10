@@ -52,7 +52,7 @@ Additionally the **Riding_Votes_Summary** view summarizes data about votes in a 
 - *totalVotes* (the total number of votes cast in the riding)
 
 # Files
-- The sql script *schema_script.sql* creates all the above tables, constraints (and required triggers), and views
+- The file *schema_script.sql* creates all the above tables, constraints (and required triggers), and views
 - The *clean_data* folder contains all the "cleaned" data to be inserted into the tables
 - Data in *party.xlsx* and *independent_party.xlsx* should be inserted into Party table
 - Data in *province.xlsx* should be inserted into the Province table
