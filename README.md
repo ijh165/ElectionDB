@@ -53,7 +53,7 @@ Additionally the **Riding_Votes_Summary** view summarizes data about votes in a 
 
 # Files
 - The file *schema_script.sql* creates all the above tables, constraints (and required triggers), and views
-- The *clean_data* folder contains all the "cleaned" data to be inserted into the tables
+- The *clean_data* folder contains all the "cleaned" data (where the UTF-8 character encoding problems are fixed)
 - Data in *party.xlsx* and *independent_party.xlsx* should be inserted into Party table
 - Data in *province.xlsx* should be inserted into the Province table
 - Data in *riding.xlsx* should be inserted into the Riding table
