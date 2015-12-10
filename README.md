@@ -24,9 +24,9 @@ The attributes are briefly described below where necessary:
 - *votes* - the number of votes cast for the candidate
 
 **_Attribute Domains_**:  
-- *provincePopulation*, *ridingpopulation*, *votes* are *INTEGER*
+- *provincePopulation*, *ridingpopulation*, *votes* are **INTEGER**
 - *provinceGDP* is **REAL**
-- The rest of the attributes are in **VARCHAR(255)**
+- The rest of the attributes are in **VARCHAR**(255)
 
 # Constraints
 **_Foreign Key Constraints_**:
