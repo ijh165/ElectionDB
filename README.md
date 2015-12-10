@@ -7,10 +7,10 @@ Final assignment for CMPT354 at SFU.
 This assignment consist of creating a database used to store data relating to the 2015 federal election (by creating tables, views, constraints, etc), as well as inserting the "cleaned" data into the appropriate tables. However the data provided is "unclean" and has to be edited so that it can be properly inserted into the database without errors).
 
 # Table Schema
-- Province = {**provinceName**, provincePopulation, provinceGDP}
-- Riding = {**ridingName**, ridingPopulation, provinceName<sup>Province</sup>}
-- Party = {**partyID**, partyName, leaderFirstName, leaderLastName, partyWeb}
-- Ballots = {**ridingName**<sup>Riding</sup>, **candidateFirstName**, **candidateLastName**, partyID<sup>Party</sup>,  votes}
+- Province = {**_provinceName_**, _provincePopulation_, _provinceGDP_}
+- Riding = {**_ridingName_**, _ridingPopulation_, _provinceName_<sup>Province</sup>}
+- Party = {**_partyID_**, _partyName_, _leaderFirstName_, _leaderLastName_, _partyWeb_}
+- Ballots = {**_ridingName_**<sup>Riding</sup>, **_candidateFirstName_**, **_candidateLastName_**, _partyID_<sup>Party</sup>, _votes_}
 
 **Note: attributes in bold are primary key, attributes with superscripts are foreign keys referencing the superscripted table
 
