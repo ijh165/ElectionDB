@@ -36,3 +36,12 @@ Additionally the *Riding_Votes_Summary* view summarizes data about votes in a ri
 - *mpParty* (the party name of the candidate with the most votes in the riding)
 - *mpVotes* (the votes cast for the candidate with the most votes in the riding)
 - *totalVotes* (the total number of votes cast in the riding)
+
+# Files
+- The sql script *schema_script.sql* creates all the above tables, constraints (and required triggers), and views
+- The *clean_data* folder contains all the "cleaned" data to be inserted into the tables
+- Data in *party.xlsx* and *independent_party.xlsx* should be inserted into Party table
+- Data in *province.xlsx* should be inserted into the Province table
+- Data in *riding.xlsx* should be inserted into the Riding table
+- Data in *ballots.xlsx* should be inserted into the Ballots table
+- When inserting data, the order the data are inserted into the tables shoulld be Party->Province->Riding->Ballots (due to foreign key constraints)
