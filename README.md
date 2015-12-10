@@ -16,17 +16,17 @@ This assignment consist of creating a database used to store data relating to th
 
 # Constraints
 Foreign Key Constraints:
-- provinceName in Riding: do not allow deletion or update of referenced attributes
-- ridingName in Ballots: do not allow deletion of referenced attributes, cascade changes to referenced attributes
-- partyID in Ballots: do not allow deletion of referenced attributes, cascade changes to referenced attributes
+- provinceName in Riding: do not allow deletion or update of referenced attributes.
+- ridingName in Ballots: do not allow deletion of referenced attributes, cascade changes to referenced attributes.
+- partyID in Ballots: do not allow deletion of referenced attributes, cascade changes to referenced attributes.
  
 In addition to the foreign key and primary key constraints there are the following constraints:
-- The attribute set {candidateFirstName, candidateLastName, partyID} should be specified as a candidate key in the Ballots table
-- The  partyID attribute in Ballots should not be null
-- The  partyWeb attribute should be specified as a candidate key in the Party table
-- The leaderFirstName and leaderLastName attributes in the Party table should not be null
-- The votes attribute in the Ballots table should not be null, and should be greater or equal to zero
-- The sum of the votes for a riding should be less than the population of that riding
+- The attribute set {candidateFirstName, candidateLastName, partyID} should be specified as a candidate key in the Ballots table.
+- The partyID attribute in Ballots should not be null.
+- The partyWeb attribute should be specified as a candidate key in the Party table.
+- The leaderFirstName and leaderLastName attributes in the Party table should not be null.
+- The votes attribute in the Ballots table should not be null, and should be greater or equal to zero.
+- The sum of the votes for a riding should be less than the population of that riding.
 
 # View
 Additionally there is a view that summarizes data about votes in a riding. The view contains the following columns:
