@@ -4,7 +4,7 @@ By Ivan Jonathan Hoo (ihoo@sfu.ca)
 # Description
 Final assignment for CMPT354 at SFU.
 
-This assignment consist of creating a database used to store data relating to the 2015 federal election (by creating tables, views, constraints, etc), as well as inserting data into the appropriate tables. However the data provided is "unclean" and has to be edited so that it can be properly inserted into the database without errors.
+This assignment consist of creating a database used to store data relating to the 2015 federal election (by creating tables, views, constraints, etc), as well as inserting data into the appropriate tables. However the data provided is "unclean" and has to be edited, mainly to fix UTF-8 character encoding problems (particularly for french letters), before it can be properly inserted into the database without errors.
 
 # Database Schema
 **_Table Schema_**:
