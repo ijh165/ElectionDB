@@ -1,5 +1,5 @@
 # ElectionDB
-By Ivan Jonathan Hoo
+By Ivan Jonathan Hoo (ihoo@sfu.ca)
 
 # Description
 Final assignment for CMPT354 at SFU.
