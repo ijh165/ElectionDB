@@ -6,7 +6,8 @@ Final assignment for CMPT354 at SFU.
 
 This assignment consist of creating a database used to store data relating to the 2015 federal election (by creating tables, views, constraints, etc), as well as inserting the "cleaned" data into the appropriate tables. However the data provided is "unclean" and has to be edited so that it can be properly inserted into the database without errors).
 
-# Table Schema
+# Database Schema
+**_Table Schema_**:
 - Province = {**_provinceName_**, _provincePopulation_, _provinceGDP_}
 - Riding = {**_ridingName_**, _ridingPopulation_, _provinceName_<sup>Province</sup>}
 - Party = {**_partyID_**, _partyName_, _leaderFirstName_, _leaderLastName_, _partyWeb_}
@@ -15,12 +16,12 @@ This assignment consist of creating a database used to store data relating to th
 **Note: attributes in bold are primary key, attributes with superscripts are foreign keys referencing the superscripted table
 
 # Constraints
-Foreign Key Constraints:
+**_Foreign Key Constraints_**:
 - provinceName in Riding: do not allow deletion or update of referenced attributes.
 - ridingName in Ballots: do not allow deletion of referenced attributes, cascade changes to referenced attributes.
 - partyID in Ballots: do not allow deletion of referenced attributes, cascade changes to referenced attributes.
  
-In addition to the foreign key and primary key constraints there are the following constraints:
+**_In addition to the foreign key and primary key constraints there are the following constraints_**:
 - The attribute set {*candidateFirstName*, *candidateLastName*, *partyID*} should be specified as a candidate key in the Ballots table.
 - The *partyID* attribute in Ballots should not be null.
 - The *partyWeb* attribute should be specified as a candidate key in the Party table.
