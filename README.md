@@ -1,4 +1,4 @@
-# ElectionDB
+# Election Database
 By Ivan Jonathan Hoo (ihoo@sfu.ca)
 
 # Description
