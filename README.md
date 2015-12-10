@@ -43,7 +43,7 @@ The attributes are briefly described below where necessary:
 - The sum of the votes for a riding should be less than the population of that riding.
 
 # View
-Additionally the *Riding_Votes_Summary* view summarizes data about votes in a riding. The view contains the following columns:
+Additionally the **Riding_Votes_Summary** view summarizes data about votes in a riding. The view contains the following columns:
 - *ridingName*
 - *mpFirstName* (the first name of the candidate with the most votes in the riding)
 - *mpLastName* (the last name of the candidate with the most votes in the riding)
