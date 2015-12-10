@@ -44,4 +44,4 @@ Additionally the *Riding_Votes_Summary* view summarizes data about votes in a ri
 - Data in *province.xlsx* should be inserted into the Province table
 - Data in *riding.xlsx* should be inserted into the Riding table
 - Data in *ballots.xlsx* should be inserted into the Ballots table
-- When inserting data, the order the data are inserted into the tables shoulld be Party->Province->Riding->Ballots (due to foreign key constraints)
+- When inserting data, the order the data are inserted into the tables should be Party->Province->Riding->Ballots (due to foreign key constraints)
