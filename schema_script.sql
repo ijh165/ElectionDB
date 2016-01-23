@@ -1,3 +1,6 @@
+---- Created by Ivan Jonathan Hoo
+---- Copyright (c) 2015 Ivan Jonathan Hoo. All rights reserved.
+
 CREATE TABLE Province (
 	provinceName VARCHAR(255),
 	provincePopulation INTEGER,
