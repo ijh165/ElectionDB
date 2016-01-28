@@ -15,8 +15,8 @@ This assignment consist of creating a database used to store data relating to th
 
 **Note: attributes in bold are primary key, attributes with superscripts are foreign keys referencing the superscripted table
 
-**_Attributes_**:    
-The attributes are briefly described below where necessary:
+**_Attributes_**:  
+<br/>The attributes are briefly described below where necessary:
 - *partyID* - the short party name used to identify the party, e.g. NDP, LIB, you have to generate this for independent candidates
 - *partyName* - the full party name
 - *leaderFirstName*, *leaderLastName* - the name of the party leader
