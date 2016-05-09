@@ -26,7 +26,7 @@ This assignment consist of creating a database used to store data relating to th
 **_Attribute Domains_**:  
 - *provincePopulation*, *ridingpopulation*, *votes* are **INTEGER**
 - *provinceGDP* is **REAL**
-- The rest of the attributes are in **VARCHAR**(255)
+- The rest of the attributes are in **VARCHAR(255)**
 
 # Constraints
 **_Foreign Key Constraints_**:
